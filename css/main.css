@@ -43,6 +43,7 @@ a:active { /* selected link */
 }
 .barraEncabezado {    
     float: right;
+    display: inline-flex;
     cursor: pointer;
     color: #222;
     min-width: 195px;
@@ -51,9 +52,13 @@ a:active { /* selected link */
 }
 .acceso {
     padding-right: 15px;
+    display: inline-flex;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
 }
 .configuracion {
-
+    display: inline-flex;
 }
 .imgIcono{
     background-size: 32px 32px;
